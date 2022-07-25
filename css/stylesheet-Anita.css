@@ -1,0 +1,139 @@
+/* CSS stylesheet behorende bij cv Anita */
+
+
+header, footer{
+  background-color: #0E9193;
+  background-image:linear-gradient(#0E9193, #D0EEEF );
+  font-family: 'Lobster', cursive;
+  border-radius: 10px 1px;
+  border-style: double;
+  border-color: #D34588;
+  padding: 30px;
+
+}
+header{
+  height: 175px;
+}
+
+
+
+footer{
+height: 100px;
+
+}
+
+body{
+background-color: #D0EEEF;
+font-family: 'Roboto Mono', monospace;
+padding:5px;
+}
+
+img{
+  width: 200px;
+  height: auto;
+  border: 5px;
+  border-radius: 10px 5px;
+  border-style: double;
+  border-color: #D34588;
+}
+
+h1, h2 {
+font-family: 'Lobster', cursive;
+color:#D34588;
+padding-left:  40px;
+padding-top: 30px;
+}
+
+ul a{
+
+  padding-top: 50px;
+  color:  white;
+  text-decoration: none;
+  align-items: center;
+
+
+}
+li{
+  display: inline-block;
+  height: 25px;
+  width: 125px;
+  padding: 5px;
+  text-align: center;
+  background-color: #0E9193;
+  border-radius: 5px 1px;
+  border-style: double;
+  border-color: #D34588;
+}
+
+footer{
+  padding-left:60px;
+
+  background-image:linear-gradient(#0E9193, #D0EEEF );
+  width: auto;
+  height: 55px;
+  font-family: 'Lobster', cursive;
+  border-radius: 10px 1px;
+  border-style: double;
+  border-color: #D34588;
+}
+
+li:hover{
+  background-color: #D34588;
+  color:white;
+}
+
+table, section, form{
+background-color: lightblue ;
+padding: 10px 20px;
+}
+
+table, td{
+  border-collapse: collapse;
+  border: 1px solid #0E9193 ;
+
+
+}
+td, th{
+  padding: 10px;
+  text-align: center;
+}
+
+th{
+  border: 2px solid #0E9193 ;
+  color: #D34588;
+}
+
+header, ul, section, footer, table, form{
+  margin: 3% 15%;
+}
+
+.drie{
+  border: 1px solid #0E9193 ;
+  background-color: rgba(14, 145, 147, 0.5);
+}
+
+input[type="text"], input[type="email"], input[type="submit"], textarea, button{
+  display: block;
+  margin: 15px 0px;
+  width: 80%;
+  box-sizing: border-box;
+}
+ textarea{
+   height: 100px;
+ }
+ input[type="text"], input[type="email"], input[type="submit"]  {
+   height: 35px;
+ }
+
+input[type="submit"] {
+  background-color: rgba(14, 145, 147, 0.5);
+  border: 1px solid #0E9193;
+}
+
+input[type="submit"]:active{
+  background-color: #D34588;
+  color: white;
+  border-radius: 10px 1px;
+  border-style: double;
+  border-color: #D34588;
+}
